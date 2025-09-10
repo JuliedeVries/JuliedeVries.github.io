@@ -1,9 +1,23 @@
 body {
-    background-color: lightblue;
+    background-color: rgb(200, 229, 239);
 }
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    
+    overflow: hidden;
+    background-color: lightblue;
+}
+ul li {
+    float: left;
+}
+ul li a {
+    display: block;
+    color: black;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ul li a :hover { 
+    background-color: rgb(97, 197, 230);
 }
