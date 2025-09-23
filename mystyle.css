@@ -26,3 +26,9 @@ ul li a.active {
     background-color: rgb(117, 194, 220); /*op de pagina waar je bent is het blokje in het 
     menu een andere kleur dan de rest van het menu namelijk die van de hover*/
 } 
+footer {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background-color: rgb(162, 211, 228);
+}
