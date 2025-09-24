@@ -8,10 +8,11 @@ ul {
     padding: 0; /*haalt standaard ruimte binnen element (menu) weg*/
     overflow: hidden; /*zorgt dat het binnen het venster blijft*/
     background-color: rgb(162, 211, 228); 
+    width: 100%;
 }
 ul li {
     float: left; /*zorgt voor horizontaal menu aan de linkerkant*/
-    margin: 0;
+    
     
 }
 ul li a {
