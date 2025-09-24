@@ -33,7 +33,7 @@ ul li a.active {
 footer { /*naam onderaan pagina*/
     padding: 0;
     margin: 0;
-    text-align: left;
+    text-align: right;
     bottom: 0;
     position: fixed;
    
