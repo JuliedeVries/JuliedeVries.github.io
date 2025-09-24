@@ -12,6 +12,7 @@ ul {
 ul li {
     float: left; /*zorgt voor horizontaal menu aan de linkerkant*/
     margin: 0;
+    margin-right: 0;
 }
 ul li a {
     display: block; /*maakt de link van de pagina in een blok in het menu*/
