@@ -1,5 +1,6 @@
 body {
     background-color: rgb(214, 232, 238); /*achtergrond kleur*/
+
 }
 ul {
     list-style-type: none; /*geen puntjes voor het menu*/
@@ -10,6 +11,7 @@ ul {
 }
 ul li {
     float: left; /*zorgt voor horizontaal menu aan de linkerkant*/
+    margin: 0;
 }
 ul li a {
     display: block; /*maakt de link van de pagina in een blok in het menu*/
@@ -33,4 +35,5 @@ footer { /*vraag: hoe wit onderaan weghalen, hoe tot links en recht einde pagina
     background-color: rgb(162, 211, 228);
     bottom: 0;
     position: fixed;
+    width: 100%;
 }
