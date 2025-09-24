@@ -12,7 +12,7 @@ ul {
 ul li {
     float: left; /*zorgt voor horizontaal menu aan de linkerkant*/
     margin: 0;
-    margin-right: 0;
+    
 }
 ul li a {
     display: block; /*maakt de link van de pagina in een blok in het menu*/
@@ -31,7 +31,7 @@ ul li a.active {
 } 
 footer { /*vraag: hoe wit onderaan weghalen, hoe tot links en recht einde pagina.*/
     padding: 0;
-    margin-left: 0;
+    margin: 0;
     text-align: center;
     background-color: rgb(162, 211, 228);
     bottom: 0;
