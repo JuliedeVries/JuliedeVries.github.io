@@ -32,4 +32,5 @@ footer { /*vraag: hoe wit onderaan weghalen, hoe tot links en recht einde pagina
     text-align: center;
     background-color: rgb(162, 211, 228);
     bottom: 0;
+    position: fixed;
 }
