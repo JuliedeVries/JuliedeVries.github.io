@@ -53,3 +53,13 @@ footer { /*naam onderaan pagina*/
     margin-left: 0;
     text-align: center;
 }
+
+.Welkom {
+    background-color: lightblue;
+    width: 60%;
+    padding: 50px;
+    display: block;
+    margin: auto;
+    text-align: left;
+    border-radius: 15px;
+}
