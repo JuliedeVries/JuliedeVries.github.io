@@ -46,6 +46,7 @@ footer { /*naam onderaan pagina*/
     display: block;
     margin: auto;
     text-align: left;
+    border-radius: 15px;
 }
 
 .h1 {
