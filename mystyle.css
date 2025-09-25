@@ -64,7 +64,26 @@ footer { /*naam onderaan pagina*/
     border-radius: 15px;
 }
 
-.binair1 {
-    background-color: lightblue;
-    width: ;
+.container {
+    display: flex;
+    gap: 20px;
+    align-items: stretch;
+    flex-wrap: wrap;
 }
+
+.box {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 300px;
+    padding: 50px;
+    border-radius: 15px;
+    min-width: 250px;
+    background-color: lightblue;
+}
+
+.box.centered {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
