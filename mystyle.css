@@ -1,6 +1,10 @@
 body {
     background-color: rgb(214, 232, 238); /*achtergrond kleur*/
 
+p {
+font-size: 19px;
+}
+
 }
 ul {
     list-style-type: none; /*geen puntjes voor het menu*/
@@ -64,16 +68,21 @@ footer { /*naam onderaan pagina*/
     border-radius: 15px;
 }
 
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+}
 
-.binair {
+.left-collumn, .rightcollumn {
+    flex: 1;
     background-color: lightblue;
-    width: 60%;
-    padding: 50px;
-    display: block;
-    margin: auto;
-    text-align: left;
+    padding: 20px;
     border-radius: 15px;
 }
+
 
 .hoi {
     word-spacing: 2.2cm;
@@ -83,6 +92,3 @@ footer { /*naam onderaan pagina*/
     word-spacing: 0.5cm;
 }
 
-p {
-font-size: 19px;
-}
