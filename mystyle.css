@@ -73,7 +73,7 @@ footer { /*naam onderaan pagina*/
     justify-content: space-between;
     align-items: flex-start;
     gap: 20px;
-    padding: 20px;
+    padding: 10px;
     max-width: 3000px;
     margin: 0 auto;
 }
