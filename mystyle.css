@@ -84,8 +84,7 @@ footer { /*naam onderaan pagina*/
     background-color: lightblue;
     padding: 20px;
     border-radius: 15px;
-    
-    
+    display: block;
 }
 
 .rightcollumn {
@@ -93,7 +92,7 @@ footer { /*naam onderaan pagina*/
     background-color: lightblue;
     padding: 20px;
     border-radius: 15px;
-    
+    display: block;
 }
 
 
