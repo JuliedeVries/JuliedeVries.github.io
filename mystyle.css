@@ -65,7 +65,7 @@ footer { /*naam onderaan pagina*/
 }
 
 .container {
-    display: flex;
+    display: block;
     gap: 20px;
     align-items: stretch;
     flex-wrap: wrap;
