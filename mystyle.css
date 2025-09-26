@@ -64,8 +64,9 @@ footer { /*naam onderaan pagina*/
     border-radius: 15px;
 }
 
+
 .container {
-    display: block;
+    display: flex;
     gap: 20px;
     align-items: stretch;
     flex-wrap: wrap;
@@ -81,9 +82,5 @@ footer { /*naam onderaan pagina*/
     background-color: lightblue;
 }
 
-.box.centered {
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-}
+
 
