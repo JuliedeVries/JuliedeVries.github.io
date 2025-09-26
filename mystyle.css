@@ -88,7 +88,7 @@ footer { /*naam onderaan pagina*/
     margin: auto;
 }
 
-.rightcollumn {
+.right-collumn {
     flex: 1;
     background-color: lightblue;
     padding: 20px;
