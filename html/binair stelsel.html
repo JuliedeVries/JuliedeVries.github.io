@@ -1,65 +1,78 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Binair stelsel</title> <!--Dit zie als naam van de pagina op het tabblad-->
-<link rel="stylesheet" href="../mystyle.css"> <!--Link naar .css-bestand-->
-    </head>
-    <body>
-        <ul> <!--Menu-->
-    <li><a href="../index.html">Home</a></li>
-    <li><a class="active" href="binair stelsel.html">Binair stelsel</a></li>
-    <li><a href="kleurmodellen.html">Kleurmodellen</a></li>
-    <li><a href="compressie.html">Compressie</a></li>
-    <li><a href="invoer.html">Invoer-Verwerking-Uitvoer</a></li>
-    <li><a href="overmij.html">Over mij</a></li>
-</ul>
+<head>
+    <title>Binair stelsel</title> <!--Dit zie als naam van de pagina op het tabblad-->
+    <link rel="stylesheet" href="../mystyle.css"> <!--Link naar .css-bestand-->
+</head>
+
+<body>
+
+    <ul> <!--Menu-->
+        <li><a href="../index.html">Home</a></li>
+        <li><a class="active" href="binair stelsel.html">Binair stelsel</a></li>
+        <li><a href="kleurmodellen.html">Kleurmodellen</a></li>
+        <li><a href="compressie.html">Compressie</a></li>
+        <li><a href="invoer.html">Invoer-Verwerking-Uitvoer</a></li>
+        <li><a href="overmij.html">Over mij</a></li>
+    </ul>
+
 <h1 class="h1">Binair stelsel</h1> <!--Dit staat bovenaan mijn pagina als titel van de pagina-->
-<div class="binair"> <!--in tabel zetten; ff opzoeken-->
-    <p> In het dagelijks leven gebruiken wij het decimale stelsel om te rekenen, met de cijfers 0 
-    t/m 9. Computers gebruiken echter niet hetzelfde systeem, maar gebruiken het binair stelsel 
-    om te rekenen. Het binair stelsel gebruikt maar twee symbolen: 0 en 1. Deze symbolen vertellen
-    de computer of schakelingen aan (1) of uit (0) staan. Dit maakt elektronische schakelingen 
-    betrouwbaar, snel en foutloos. 
-    <br>
-    <br> 
-    In het binair stelsel heeft elke positie een waarde die steeds verdubbelt van rechts naar links. 
-    <br> 
-    ... 16 - 8 - 4 - 2 - 1 
-    <br>
-    <br> Rekenen met deze posities gaat dus ook anders: <br> Vb) het getal 10011 in het binair stelsel 
-    wordt 19 in het decimale stelsel. 
-    <br>
-    <br> 
-    <p class="hoi"> 1   0   0   1   1 </p>
-    <br>
-    <p class="hoi2"> (1x16) + (0x8) + (0x4) + (1x2) + (1x1) = 19 </p>
-    <br>
-    <br>
-        </p> <!--Hierin staat tekst als paragraaf--> <!--vragen: ruimte tussen cijfers-->
-<h4>Bits en bytes</h4>
+<div class="container">     
+    <div class="left-collumn">
+        <h4>Binair stelsel</h4>
+        <p> In het dagelijks leven gebruiken wij het decimale stelsel om te rekenen, met de cijfers 0 
+            t/m 9. Computers gebruiken echter niet hetzelfde systeem, maar gebruiken het binair stelsel 
+            om te rekenen. Het binair stelsel gebruikt maar twee symbolen: 0 en 1. Deze symbolen vertellen
+            de computer of schakelingen aan (1) of uit (0) staan. Dit maakt elektronische schakelingen 
+            betrouwbaar, snel en foutloos. 
+        <br>
+        <br> 
+            In het binair stelsel heeft elke positie een waarde die steeds verdubbelt van rechts naar links. 
+        <br> 
+            ... 16 - 8 - 4 - 2 - 1 
+        <br>
+        <br> 
+            Rekenen met deze posities gaat dus ook anders: 
+        <br> 
+            Vb) het getal 10011 in het binair stelsel wordt 19 in het decimale stelsel. 
+        <br>
+        <br> 
+        <p class="hoi"> 1   0   0   1   1 </p>
+        <br>
+        <p class="hoi2"> (1x16) + (0x8) + (0x4) + (1x2) + (1x1) = 19 </p>
+        <br>
+        <br>
+        </p> 
+        <p> Hieronder staat nog een leuk spelletje over het binair stelsel.</p>
+        <iframe src="https://games.penjee.com/binary-bonanza/game.php" width="700" height="500" frameborder="no" scrolling="no" ></iframe>
+    </div>
+
+    <div class="right-collumn"> 
+        <h4>Bits en bytes</h4>
         <p> Een bit is de kleinste eenheid in het binair stelsel. Deze kan maar twee waarden hebben:
             0 of 1. Een byte bestaat uit acht bits samen. Een byte kan 256 (2⁸) verschillende waarden
             opslaan; van 0 t/m 255. Grotere hoeveelheden aan informatie kunnen in kilobytes (KB = 1024
             bytes), megabytes (MB = 1024 KB) of gigabytes (GB = 1024 MB) aangeduid worden.
-            <br><br>  <!--font-size groter maken-->
+        <br>
+        <br> 
         </p> 
-<h4>ASCII-codes</h4>
+        <h4>ASCII-codes</h4>
         <p>Om teksten op te slaan gebruiken computers het ASCII-systeem (<em>American Standard 
             Code for Information Interchange</em>). In het ASCII-systeem krijgt elke letter, cijfer
             en symbool zijn eigen unieke nummer dat in binair wordt opgeslagen. De hoofdletter C 
             bijvoorbeeld heeft in ASCII de waarde 67. In binaire vorm is dit 01000011. De originele
             ASCII-tabel heeft 128 tekens. Dankzij dit systeem kan binaire data omgezet worden zodat 
             wij die kunnen lezen.
-            <br>
-            <br>
+        <br>
+        <br>
         <img src="../afbeeldingen/ascii.png" height="350" width="410">
         </p>
-    
-<p>Hieronder staat nog een leuk spelletje over het binair stelsel.</p>
-<iframe src="https://games.penjee.com/binary-bonanza/game.php" width="700" height="500" frameborder="no" scrolling="no" ></iframe>
-</div>  
-    </body>
+    </div>
+</div>
+</body>
+
 <footer>
 <p>Julie de Vries</p>
 </footer>
+
 </html>
