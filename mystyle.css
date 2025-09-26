@@ -74,6 +74,8 @@ footer { /*naam onderaan pagina*/
     align-items: flex-start;
     gap: 20px;
     padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .left-collumn, .rightcollumn {
@@ -81,6 +83,7 @@ footer { /*naam onderaan pagina*/
     background-color: lightblue;
     padding: 20px;
     border-radius: 15px;
+    width: 45%;b
 }
 
 
