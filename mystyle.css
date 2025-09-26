@@ -85,6 +85,7 @@ footer { /*naam onderaan pagina*/
     padding: 20px;
     border-radius: 15px;
     display: block;
+    margin: auto;
 }
 
 .rightcollumn {
@@ -93,6 +94,7 @@ footer { /*naam onderaan pagina*/
     padding: 20px;
     border-radius: 15px;
     display: block;
+    margin: auto;
 }
 
 
