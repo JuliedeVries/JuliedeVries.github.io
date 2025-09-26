@@ -39,7 +39,7 @@ footer { /*naam onderaan pagina*/
     margin: 0;
     text-align: right;
     bottom: 0; /*footer onderaan de pagina*/
-    position: sticky; /*footer staat vast*/
+    position: relative; /*footer staat vast*/
     width: 98%;
 }
 
