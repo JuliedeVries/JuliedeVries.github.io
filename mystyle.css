@@ -65,22 +65,14 @@ footer { /*naam onderaan pagina*/
 }
 
 
-.container {
-    display: flex;
-    gap: 20px;
-    align-items: stretch;
-    flex-wrap: wrap;
-}
-
-.box {
-    flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: 300px;
-    padding: 50px;
-    border-radius: 15px;
-    min-width: 250px;
+.binair {
     background-color: lightblue;
+    width: 60%;
+    padding: 50px;
+    display: block;
+    margin: auto;
+    text-align: left;
+    border-radius: 15px;
 }
-
 
 
