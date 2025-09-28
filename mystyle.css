@@ -78,26 +78,24 @@ footer { /*naam onderaan pagina*/
     max-width: 3000px;
     margin: 0 auto;
 }
-
-
 .left-collumn, {
-    flex: 1;
     background-color: lightblue;
-    padding: 20px;
-    border-radius: 15px;
+    width: 45%;
+    padding: 50px;
     display: block;
     margin: auto;
+    text-align: left;
+    border-radius: 15px;
 }
-
 .right-collumn {
-    flex: 1;
     background-color: lightblue;
-    padding: 20px;
-    border-radius: 15px;
+    width: 45%;
+    padding: 50px;
     display: block;
     margin: auto;
+    text-align: left;
+    border-radius: 15px;
 }
-
 
 .hoi {
     word-spacing: 2.2cm;
@@ -107,3 +105,12 @@ footer { /*naam onderaan pagina*/
     word-spacing: 0.5cm;
 }
 
+.invoer {
+    background-color: lightblue;
+    width: 60%;
+    padding: 50px;
+    display: block;
+    margin: auto;
+    text-align: left;
+    border-radius: 15px;
+}
