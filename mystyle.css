@@ -1,22 +1,25 @@
+/*algemene opmaak van de pagina*/
 body {
     background-color: rgb(214, 232, 238); /*achtergrond kleur*/
 }
 
 p {
-    font-size: 18px;
+    font-size: 18px; /*lettergrootte van paragrafen*/
 }
 
+/*titel bovenaan pagina*/
 .h1 {
-    margin-left: 0;
-    text-align: center;
+    margin-left: 0; /*verwijderd de ruimte aan de linkerkant*/
+    text-align: center; /*zorgt dat de titel in het midden komt*/
 }
 
+/*menu*/
 ul {
-    list-style-type: none; /*geen puntjes voor het menu*/
-    margin: 0; /*haalt de standaard ruimte tussen element en andere elementen weg*/
-    padding: 0; /*haalt standaard ruimte binnen element (menu) weg*/
+    list-style-type: none; /*verwijderd standaard puntjes voor het menu*/
+    margin: 0; /*haalt de standaard ruimte tussen elementen weg*/
+    padding: 0; /*haalt standaard ruimte binnen element weg*/
     overflow: hidden; /*zorgt dat het binnen het venster blijft*/
-    background-color: rgb(162, 211, 228); 
+    background-color: rgb(162, 211, 228); /*achtergrondkleur van het menu*/
     width: 100%; /*breedte van menu*/
 }
 
@@ -25,59 +28,57 @@ ul li {
 }
 
 ul li a {
-    display: block; /*maakt de link van de pagina in een blok in het menu*/
+    display: block; /*maakt de link van de pagina een blok in het menu*/
     color: black; /*tekstkleur*/
     text-align: left; /*tekst aan de linkerkant van het blok*/
-    padding: 14px 16px;
+    padding: 14px 16px; /*ruimte rond tekst in het menu*/
     text-decoration: none; /*verwijderd de streep onder de link*/
 }
 ul li a:hover { 
-    background-color: rgb(117, 194, 220); /*als je over het menu gaat krijgt die een 
-    andere kleur namelijk een donkerdere blauw*/
+    background-color: rgb(117, 194, 220); /*kleur van menu item als je erover heen gaat met je muis*/
 }
 ul li a.active {
-    background-color: rgb(117, 194, 220); /*op de pagina waar je bent is het blokje in het 
-    menu een andere kleur dan de rest van het menu namelijk die van de hover*/
+    background-color: rgb(117, 194, 220); /*kleur van het blokje van de link op de actieve pagina*/
 } 
 
+/*container voor de hoofdinhoud van de pagina*/
 .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 40px;
-    padding: 10px;
-    max-width: 3000px;
-    margin: 0 auto;
+    display: flex; /*maakt een flexbox waar kolommen in kunnen staan*/
+    justify-content: space-between; /*zorgt dat er ruimte komt tussen de linker- en rechterkolom*/
+    align-items: flex-start; /*zorgt dat de kolommen worden uitgelijnt met elkaar*/
+    gap: 40px; /*gat tussen de kolommen*/
+    padding: 10px; /*ruimte in de kolom*/
+    max-width: 3000px; /*maximale breedte die de kolom mag zijn*/
+    margin: auto; /*zet de container horizontaal op de pagina*/
 }
 
+/*opmaak van rechterkolom op de pagina*/
 .right-collumn {
-    background-color: lightblue;
-    width: 45%;
-    padding: 50px;
-    display: block;
-    margin: auto;
-    text-align: left;
-    border-radius: 15px;
+    background-color: lightblue; /*achtergrondkleur van de kolom*/
+    width: 45%; /*breedte van de kolom*/
+    padding: 50px; /*ruimte in de kolom*/
+    display: block; /*maakt een blokvorm van de kolom*/
+    margin: auto; /*centreert de kolom horizontaal*/
+    text-align: left; /*zorgt dat de tekst links staat*/
+    border-radius: 15px; /*maken de hoeken van de kolom rond*/
 }
 
+/*specifieke opmaak voor het voorbeeld op de binair stelsel pagina*/
 .hoi {
-    word-spacing: 2.2cm;
+    word-spacing: 2.2cm;  /*ruimte tussen de binaire getallen*/
 }
-
 .hoi2 {
-    word-spacing: 0.5cm;
+    word-spacing: 0.5cm; /*ruimte tussen berekeningen*/
 }
 
+/*opmaak van alle pagina's, behalve de binair stelsel pagina*/
 .pagina {
-    background-color: lightblue;
-    width: 60%;
-    padding: 50px;
-    display: block;
-    margin: auto;
-    text-align: left;
-    border-radius: 15px;
+    background-color: lightblue; /*achtergrondkleur van tekstblok*/
+    width: 60%; /*breedte van tekstblok*/
+    padding: 50px; /*ruimte in tekstblok*/
+    display: block; /*maakt een blokvorm*/
+    margin: auto; /*centreert blok horizontaal*/
+    text-align: left; /*zet de tekst links*/
+    border-radius: 15px; /*maakt de hoeken van het blok rond*/
 }
 
-.footer {
-    text-align: right;
-}
