@@ -78,12 +78,3 @@ ul li a.active {
     border-radius: 15px;
 }
 
-footer { /*naam onderaan pagina*/
-    padding: 0;
-    margin: 0;
-    text-align: right;
-    bottom: 0; /*footer onderaan de pagina*/
-    position: sticky; /*footer staat vast*/
-    width: 98%;
-    font-size: smaller;
-}
