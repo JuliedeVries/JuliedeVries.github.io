@@ -78,15 +78,7 @@ footer { /*naam onderaan pagina*/
     max-width: 3000px;
     margin: 0 auto;
 }
-.left-collumn {
-    background-color: lightblue;
-    width: 45%;
-    padding: 50px;
-    display: block;
-    margin: auto;
-    text-align: left;
-    border-radius: 15px;
-}
+
 .right-collumn {
     background-color: lightblue;
     width: 45%;
