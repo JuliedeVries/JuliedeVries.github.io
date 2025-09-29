@@ -106,3 +106,13 @@ footer { /*naam onderaan pagina*/
     text-align: left;
     border-radius: 15px;
 }
+
+.pagina {
+    background-color: lightblue;
+    width: 60%;
+    padding: 50px;
+    display: block;
+    margin: auto;
+    text-align: left;
+    border-radius: 15px;
+}
