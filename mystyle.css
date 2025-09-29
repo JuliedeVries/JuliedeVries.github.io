@@ -1,11 +1,16 @@
 body {
     background-color: rgb(214, 232, 238); /*achtergrond kleur*/
+}
 
 p {
-font-size: 18px;
+    font-size: 18px;
 }
 
+.h1 {
+    margin-left: 0;
+    text-align: center;
 }
+
 ul {
     list-style-type: none; /*geen puntjes voor het menu*/
     margin: 0; /*haalt de standaard ruimte tussen element en andere elementen weg*/
@@ -14,11 +19,11 @@ ul {
     background-color: rgb(162, 211, 228); 
     width: 100%; /*breedte van menu*/
 }
+
 ul li {
     float: left; /*zorgt voor horizontaal menu aan de linkerkant*/
-    
-    
 }
+
 ul li a {
     display: block; /*maakt de link van de pagina in een blok in het menu*/
     color: black; /*tekstkleur*/
@@ -34,40 +39,6 @@ ul li a.active {
     background-color: rgb(117, 194, 220); /*op de pagina waar je bent is het blokje in het 
     menu een andere kleur dan de rest van het menu namelijk die van de hover*/
 } 
-footer { /*naam onderaan pagina*/
-    padding: 0;
-    margin: 0;
-    text-align: right;
-    bottom: 0; /*footer onderaan de pagina*/
-    position: sticky; /*footer staat vast*/
-    width: 98%;
-    font-size: smaller;
-}
-
-.overmij {
-    background-color: lightblue;
-    width: 60%;
-    padding: 50px;
-    display: block;
-    margin: auto;
-    text-align: left;
-    border-radius: 15px;
-}
-
-.h1 {
-    margin-left: 0;
-    text-align: center;
-}
-
-.Welkom {
-    background-color: lightblue;
-    width: 60%;
-    padding: 50px;
-    display: block;
-    margin: auto;
-    text-align: left;
-    border-radius: 15px;
-}
 
 .container {
     display: flex;
@@ -97,7 +68,7 @@ footer { /*naam onderaan pagina*/
     word-spacing: 0.5cm;
 }
 
-.invoer {
+.pagina {
     background-color: lightblue;
     width: 60%;
     padding: 50px;
@@ -107,12 +78,12 @@ footer { /*naam onderaan pagina*/
     border-radius: 15px;
 }
 
-.pagina {
-    background-color: lightblue;
-    width: 60%;
-    padding: 50px;
-    display: block;
-    margin: auto;
-    text-align: left;
-    border-radius: 15px;
+footer { /*naam onderaan pagina*/
+    padding: 0;
+    margin: 0;
+    text-align: right;
+    bottom: 0; /*footer onderaan de pagina*/
+    position: sticky; /*footer staat vast*/
+    width: 98%;
+    font-size: smaller;
 }
