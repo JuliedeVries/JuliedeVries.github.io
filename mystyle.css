@@ -83,6 +83,6 @@ ul li a.active {
 }
 
 .overmij {
-    border-radius: 15px;
+    border-radius: 15px; /*maakt hoeken rond*/
 }
 
